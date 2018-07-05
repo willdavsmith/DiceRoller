@@ -1,0 +1,40 @@
+body {
+    background-color: ghostwhite;
+    font-size: 24px;
+    font-family: 'Courier New', sans-serif;
+}
+button {
+    width: 90px;
+    height: 60px;
+    border-radius: 8px;
+    color: ghostwhite;
+    font-size: 24px;
+    font-family: 'Courier New', sans-serif;
+}
+#d100 {
+    background-color: darkorange;
+}
+#d20 {
+    background-color: blueviolet;
+}
+#d12 {
+    background-color: goldenrod;
+}
+#d10 {
+    background-color: firebrick;
+}
+#d8 {
+    background-color: cornflowerblue;
+}
+#d6 {
+    background-color: crimson;
+}
+#d4 {
+    background-color: lawngreen;
+}
+#d2 {
+    background-color: violet;
+}
+#dN {
+    background-color: dodgerblue;
+}
