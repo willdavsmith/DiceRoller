@@ -8,10 +8,10 @@ function roll(roll, amount) {
             sum += val;
         }
         document.getElementById("output").innerHTML =
-            `OUTPUT<br><br>Sum: ${sum}/${amount * die}<br>Avg: ${(sum / rolls.length).toFixed(2)}/${die}<br><br>Values: ${rolls}`;
+            `Sum: ${sum}/${amount * die}<br>Avg: ${(sum / rolls.length).toFixed(2)}/${die}<br><br>Values: ${rolls}`;
     }
     else {
-        document.getElementById("output").innerHTML = `OUTPUT<br><br>Roll: ${rolls}/${die}`;
+        document.getElementById("output").innerHTML = `Roll: ${rolls}/${die}`;
     }
 }
 document.getElementById("d100").onclick = function() {roll("d100", document.getElementById("amount").value)};

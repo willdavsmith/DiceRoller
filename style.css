@@ -1,40 +1,44 @@
 body {
-    background-color: ghostwhite;
-    font-size: 24px;
-    font-family: 'Courier New', sans-serif;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+  width: 10%; 
+  display: flex;
+  flex-direction: column;
 }
 button {
-    width: 90px;
-    height: 60px;
-    border-radius: 8px;
-    color: ghostwhite;
-    font-size: 24px;
-    font-family: 'Courier New', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  font-size: 40px;
+  background-color: #009ac9;
+  margin: 10px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-#d100 {
-    background-color: darkorange;
+
+input {
+  margin: 10px;
+  font-size: 40px;
+  width: 90%;
 }
-#d20 {
-    background-color: blueviolet;
+
+#output {
+  position: absolute;
+  left: 300px;
+  top: 0%;
 }
-#d12 {
-    background-color: goldenrod;
+
+button:hover {
+  background-color: #ffffff;
+  color: #009ac9;
+  border-color: #009ac9;
 }
-#d10 {
-    background-color: firebrick;
-}
-#d8 {
-    background-color: cornflowerblue;
-}
-#d6 {
-    background-color: crimson;
-}
-#d4 {
-    background-color: lawngreen;
-}
-#d2 {
-    background-color: violet;
-}
-#dN {
-    background-color: dodgerblue;
-}
+

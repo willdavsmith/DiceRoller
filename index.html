@@ -3,9 +3,11 @@
     <head>
         <title>willdavsmith - DiceRoller</title>
         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+      <div id="container">
         <button id="d100">d100</button>
         <button id="d20">d20</button>
         <button id="d12">d12</button>
@@ -15,8 +17,9 @@
         <button id="d4">d4</button>
         <button id="d2">d2</button>
         <button id="dN">dN</button>
-        <input type="text" id="amount" value="" title="amount">
-        <p id="output">OUTPUT</p>
-        <script src="DiceRoller.js"></script>
+        <input type="text" id="amount" value="" title="amount" placeholder="amount">
+      </div>
+      <p id="output"></p>
+      <script src="DiceRoller.js"></script>
     </body>
 </html>
